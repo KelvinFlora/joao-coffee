@@ -10,7 +10,7 @@
             height="29"
             class="d-inline-block align-text-top"
           />
-          Marciran Brisida
+          João Coffee
         </router-link>
       </a>
       <button
