@@ -1,16 +1,15 @@
 <template>
-  <nav class="navbar navbar-expand-lg bg-dark">
+  <nav class="navbar navbar-expand-lg bg-secondary">
     <div class="container">
       <a class="navbar-brand text-light" href="#">
         <router-link class="nav-link2" to="/"
           ><img
-            src="./icons/IconPsychology.png"
+            src="./icons/iconjc.png"
             alt="Logo"
-            width="35"
-            height="29"
+            width="100"
+            height="100"
             class="d-inline-block align-text-top"
           />
-          João Coffee
         </router-link>
       </a>
       <button
@@ -25,7 +24,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="nav justify-content-center">
+        <ul class="nav">
           <li class="nav-item">
             <router-link class="nav-link" to="/">Início</router-link>
           </li>

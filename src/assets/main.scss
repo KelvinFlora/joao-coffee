@@ -2,8 +2,8 @@
 // Option A: Include all of Bootstrap
 
 // Include any default variable overrides here (though functions won't be available)
-$primary: #f6d76f;
-
+$primary: #4f3333;
+$secondary: #fcfcfc;
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here

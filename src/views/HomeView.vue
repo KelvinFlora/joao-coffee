@@ -1,32 +1,95 @@
 <template>
-  <main>
+  <main class="bg-primary">
     <!-- Initial text -->
-    <div class="container pt-4 pb-4">
-      <div class="row align-self-xl-center">
-        <h1 class="psycho-title wow">A Psicoterapia</h1>
-        <h2 class="col-xl-6 pt-2 psycho-text wow">
-          Muitas pessoas ainda têm dúvidas sobre a psicoterapia e acham que é algo reservado apenas
-          para quem tem "problemas graves".
-          <br />
-          No entanto, isso não é verdade. A terapia pode ser útil para qualquer pessoa que esteja
-          enfrentando dificuldades na vida e que queira melhorar sua saúde mental e bem-estar geral.
-          <br />
-          É importante lembrar que buscar ajuda não é um sinal de fraqueza, mas sim de coragem e
-          resiliência. Todos nós enfrentamos dificuldades em algum momento da vida, e buscar ajuda
-          pode ser uma forma de enfrentar esses desafios de forma mais eficaz.
-          <br />
-          Se você está lutando contra problemas de saúde mental, ou se sabe de alguém que está
-          enfrentando esses desafios, considere a possibilidade de buscar ajuda profissional. A
-          psicoterapia pode ser uma ferramenta valiosa para ajudá-lo a lidar com esses problemas e
-          melhorar sua qualidade de vida.
-        </h2>
-        <div class="col-xl-6 text-center">
-          <img
-            class="rounded w-75 psycho-image wow"
-            src="../../public/images/yoga-g336800fd7_1280.jpg"
-            alt="Pessoa meditando"
-          />
+
+    <div class="container-fluid p-0 slider-container wow">
+      <div id="home-slider" class="carousel carousel-light slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#home-slider"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#home-slider"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#home-slider"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
         </div>
+        <div class="carousel-inner">
+          <a href="a-importancia-da-leitura.html">
+            <div class="carousel-item active" data-bs-interval="4500">
+              <div
+                class="d-block w-100 slide-image"
+                style="background-image: url('/images/coffee.jpg')"
+                alt="..."
+              ></div>
+              <div class="carousel-caption">
+                <h5>A importância do cultivo!</h5>
+                <p>
+                  Quais são os pontos positivos de se compreender a fundo sobre o cultivo dos cafés.
+                </p>
+              </div>
+            </div>
+          </a>
+          <div class="carousel-item" data-bs-interval="4500">
+            <a href="entre-acordes-e-harmonias.html">
+              <div
+                class="d-block w-100 slide-image"
+                style="
+                  background-image: url('images/coffeetaste5.jpg');
+                  background-position-y: center;
+                "
+                alt="..."
+              ></div>
+              <div class="carousel-caption">
+                <h5>Entre acordes e harmonias</h5>
+                <p>As maiores dificuldades na identificação de acordes.</p>
+              </div>
+            </a>
+          </div>
+          <div class="carousel-item" data-bs-interval="4500">
+            <a href="apresentacao-em-casamentos.html">
+              <div
+                class="d-block w-100 slide-image"
+                style="background-image: url('images/piano-carousel-3.jpg')"
+                alt="..."
+              ></div>
+              <div class="carousel-caption">
+                <h5>Cafés especiais</h5>
+                <p>Tudo sobre a carreira!</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#home-slider"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#home-slider"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
     <!-- Quote -->
@@ -274,22 +337,30 @@
   </main>
 </template>
 <style>
-.psycho-title {
-  padding-top: 200px;
-  margin-bottom: 10px;
-  animation: fadeInDown;
-  animation-duration: 2s;
-}
-.psycho-text {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: larger;
-  margin-bottom: 250px;
+.slider-container {
   animation: fadeIn;
   animation-duration: 4s;
 }
-.psycho-image {
-  animation: fadeInRight;
-  animation-duration: 2s;
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 4rem !important;
+  height: 4rem !important;
+}
+
+#home-slider .slide-image {
+  min-height: 90vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#home-slider .carousel-item .carousel-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.45);
+  color: #fff;
 }
 .about-title {
   margin-top: 50px;
