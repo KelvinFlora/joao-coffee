@@ -1,95 +1,41 @@
 <template>
   <main class="bg-primary">
     <!-- Initial text -->
-
-    <div class="container-fluid p-0 slider-container wow">
-      <div id="home-slider" class="carousel carousel-light slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#home-slider"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#home-slider"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#home-slider"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
+    <div class="container pt-4 pb-4">
+      <div class="row align-self-xl-center">
+        <h1 class="psycho-title wow">
+          Explorando o Mundo dos Cafés Especiais: Uma Jornada Sensorial e Profissional
+        </h1>
+        <h2 class="col-xl-6 pt-2 psycho-text wow">
+          <p>
+            O universo dos cafés especiais é uma verdadeira ode aos sentidos, onde aromas complexos,
+            sabores distintos e origens diversas se entrelaçam para criar uma experiência única e
+            memorável. Mais do que uma bebida cotidiana, o café especial transcende as fronteiras do
+            comum, cativando paladares e despertando uma paixão que vai além da xícara.
+            <br />
+          </p>
+          <p>
+            Neste contexto, a profissão ligada aos cafés especiais assume um papel crucial,
+            tornando-se uma atividade enriquecedora e desafiadora. O café especial é fruto de um
+            minucioso processo, desde o cultivo da planta até a xícara.
+            <br />
+          </p>
+          <p>
+            Começa com a seleção de grãos de qualidade excepcional, provenientes de regiões
+            geográficas privilegiadas. Os métodos de colheita e processamento são realizados com
+            cuidado, garantindo que a integridade dos grãos seja preservada.
+            <br />
+          </p>
+          Em seguida, o mestre torrador assume a responsabilidade de realçar as características
+          únicas de cada lote, transformando os grãos verdes em pequenas obras-primas caramelizadas.
+        </h2>
+        <div class="col-xl-6 text-center">
+          <img
+            class="rounded psycho-image wow"
+            src="../../public/images/coffeetaste5.jpg"
+            alt="Pessoa meditando"
+          />
         </div>
-        <div class="carousel-inner">
-          <a href="a-importancia-da-leitura.html">
-            <div class="carousel-item active" data-bs-interval="4500">
-              <div
-                class="d-block w-100 slide-image"
-                style="background-image: url('/images/coffee.jpg')"
-                alt="..."
-              ></div>
-              <div class="carousel-caption">
-                <h5>A importância do cultivo!</h5>
-                <p>
-                  Quais são os pontos positivos de se compreender a fundo sobre o cultivo dos cafés.
-                </p>
-              </div>
-            </div>
-          </a>
-          <div class="carousel-item" data-bs-interval="4500">
-            <a href="entre-acordes-e-harmonias.html">
-              <div
-                class="d-block w-100 slide-image"
-                style="
-                  background-image: url('images/coffeetaste5.jpg');
-                  background-position-y: center;
-                "
-                alt="..."
-              ></div>
-              <div class="carousel-caption">
-                <h5>Entre acordes e harmonias</h5>
-                <p>As maiores dificuldades na identificação de acordes.</p>
-              </div>
-            </a>
-          </div>
-          <div class="carousel-item" data-bs-interval="4500">
-            <a href="apresentacao-em-casamentos.html">
-              <div
-                class="d-block w-100 slide-image"
-                style="background-image: url('images/piano-carousel-3.jpg')"
-                alt="..."
-              ></div>
-              <div class="carousel-caption">
-                <h5>Cafés especiais</h5>
-                <p>Tudo sobre a carreira!</p>
-              </div>
-            </a>
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#home-slider"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#home-slider"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
     </div>
     <!-- Quote -->
@@ -337,30 +283,25 @@
   </main>
 </template>
 <style>
-.slider-container {
+.psycho-title {
+  color: white;
+  padding-top: 200px;
+  margin-bottom: 10px;
+  animation: fadeInDown;
+  animation-duration: 2s;
+}
+.psycho-text {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: larger;
+  margin-bottom: 250px;
   animation: fadeIn;
   animation-duration: 4s;
 }
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  width: 4rem !important;
-  height: 4rem !important;
-}
-
-#home-slider .slide-image {
-  min-height: 90vh;
-  background-size: cover;
-  background-position: center;
-}
-
-#home-slider .carousel-item .carousel-caption {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.45);
-  color: #fff;
+.psycho-image {
+  animation: fadeInRight;
+  animation-duration: 2s;
+  width: 60%;
 }
 .about-title {
   margin-top: 50px;
