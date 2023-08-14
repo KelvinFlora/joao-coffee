@@ -214,7 +214,7 @@
 }
 
 .contact-title {
-  color: #4f3333;
+  color: rgb(79, 51, 51);
   margin-top: 50px;
   margin-bottom: 50px;
   animation: fadeIn;
