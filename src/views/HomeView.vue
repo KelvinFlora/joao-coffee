@@ -3,10 +3,10 @@
     <!-- Initial text -->
     <div class="container pt-4 pb-4">
       <div class="row align-self-xl-center">
-        <h1 class="psycho-title wow">
+        <h1 class="jc-title wow">
           Explorando o Mundo dos Cafés Especiais: Uma Jornada Sensorial e Profissional
         </h1>
-        <h2 class="col-xl-6 pt-2 psycho-text wow">
+        <h2 class="col-xl-6 pt-2 jc-text wow">
           <p>
             O universo dos cafés especiais é uma verdadeira ode aos sentidos, onde aromas complexos,
             sabores distintos e origens diversas se entrelaçam para criar uma experiência única e
@@ -31,107 +31,14 @@
         </h2>
         <div class="col-xl-6 text-center">
           <img
-            class="rounded psycho-image wow"
+            class="rounded jc-image wow"
             src="../../public/images/coffeetaste5.jpg"
             alt="Pessoa meditando"
           />
         </div>
       </div>
     </div>
-    <!-- Quote -->
-    <div class="container-fluid text-center pt-5 pb-5 bg-dark quote-bg">
-      <h1 class="home-quote text-light wow">
-        "A mente é como um jardim. Se não for cultivada, pode se tornar uma selva." - Desmond Tutu
-      </h1>
-    </div>
-    <!-- About Me -->
-    <div class="container text-center">
-      <img
-        class="pt-4 about-photo wow"
-        alt="Foto de perfil do Psicólogo Marciran"
-        src="../../public/images/marciran-photo-prof.png"
-      />
-    </div>
-    <div class="container text-center pt-3">
-      <h2 class="about-title wow">Sobre mim</h2>
-    </div>
-    <div class="container-fluid text-center pt-4 pb-4">
-      <div class="row justify-content-center">
-        <h4 class="col-8 align-self-center about-text wow">
-          <p>
-            Meu nome é <strong>Marciran Eleuterio Brisida</strong>, Sou
-            <strong>Psicólogo Clínico</strong>.
-            <br />
-            Atendo crianças, adolescentes, adultos e idosos.
-          </p>
 
-          <p>
-            Formado em <strong>Psicologia</strong> pela Universidade José do Rosário Vellano -
-            UNIFENAS.
-          </p>
-
-          <p>
-            Especialista em <strong>Terapia Cognitivo-Comportamental</strong> pela Pontifícia
-            Universidade Católica do Paraná - PUCPR.
-          </p>
-
-          <p>
-            Psicólogo credenciado junto ao Conselho Federal de Psicologia - CFP para
-            <strong>atendimento online</strong> segundo a Resolução CFP Nº: 11/2018.
-          </p>
-        </h4>
-      </div>
-    </div>
-
-    <!-- Serviços -->
-    <div class="container-fluid pt-4 pb-4 text-center bg-dark text-white services">
-      <h1 class="pb-3 services-title wow">Serviços</h1>
-      <div class="card-group wow">
-        <div class="card bg-dark align-items-center wow card-1">
-          <img
-            src="../../public/images/psychotherapy.jpg"
-            class="card-img-top rounded w-50"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">Atendimento Psicológico</h5>
-            <p class="card-text">
-              Atendimentos Psicológicos voltados para todos os públicos (Infantil, Adolescente,
-              Adulto e Idoso).
-            </p>
-          </div>
-        </div>
-        <div class="card bg-dark align-items-center wow card-2">
-          <img
-            src="../../public/images/parents-orientation.jpeg"
-            class="card-img-top rounded w-50"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">Orientação de Pais</h5>
-            <p class="card-text">
-              Orientações aos pais relacionadas a comportamentos e como lidar com situações adversas
-              nos diversos ambientes onde seus filhos estão inseridos.
-            </p>
-          </div>
-        </div>
-        <div class="card bg-dark align-items-center wow card-3">
-          <img
-            src="../../public/images/couple-therapy.jpg"
-            class="card-img-top rounded w-50"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">Terapia de Casal</h5>
-            <p class="card-text">
-              A terapia de casal possibilitará a identificação e discussão de questões que estão
-              afetando o relacionamento. Como por exemplo, problemas de comunicação, conflitos,
-              falta de intimidade, infidelidade ou outras dificuldades.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
     <!-- Contact -->
     <div
       class="container wow"
@@ -144,13 +51,13 @@
       <p class="pt-3">
         <a href="https://www.instagram.com/psi.marciranbrisida/" target="_blank" class="a-contact">
           <i class="bi bi-person-vcard ps-2"></i>
-          Marciran Eleutério Brisida
+          João Vitor Pereira da Silva
         </a>
       </p>
       <p>
         <a href="https://wa.me/+5535988434758" target="_blank" class="a-contact">
           <i class="bi bi-whatsapp ps-2"></i>
-          (35) 98843-4758
+          (35) 99889-5249
         </a>
       </p>
       <p>
@@ -283,14 +190,14 @@
   </main>
 </template>
 <style>
-.psycho-title {
+.jc-title {
   color: white;
   padding-top: 200px;
   margin-bottom: 10px;
   animation: fadeInDown;
   animation-duration: 2s;
 }
-.psycho-text {
+.jc-text {
   color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: larger;
@@ -298,69 +205,27 @@
   animation: fadeIn;
   animation-duration: 4s;
 }
-.psycho-image {
+.jc-image {
   animation: fadeInRight;
   animation-duration: 2s;
   width: 60%;
 }
-.about-title {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  animation: fadeInDown;
-  animation-duration: 2s;
-}
-.about-photo {
-  align-items: center;
-  width: 30%;
-  margin-top: 100px;
-  animation: fadeInDown;
-  animation-duration: 2s;
-}
-.about-text {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: larger;
-  margin-bottom: 200px;
-  animation: fadeInUp;
-  animation-duration: 2s;
-}
-.services-title {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  animation: fadeIn;
-  animation-duration: 3s;
-}
-.card {
-  border: 0;
-  border-width: 0 !important;
-}
-.card-1 {
-  animation: fadeInLeft;
-  animation-duration: 2s;
-}
-.card-2 {
-  animation: fadeInUp;
-  animation-duration: 2s;
-}
-.card-3 {
-  animation: fadeInRight;
-  animation-duration: 2s;
-}
-.card-group {
-  margin-bottom: 150px;
-}
 
 .contact-title {
+  color: white;
   margin-top: 50px;
   margin-bottom: 50px;
   animation: fadeIn;
   animation-duration: 3s;
 }
 .contact-info {
+  color: white;
   margin-bottom: 50px;
   animation: fadeIn;
   animation-duration: 3s;
 }
 .contact-info-title {
+  color: white;
   margin-bottom: 30px;
   animation: fadeIn;
   animation-duration: 3s;
@@ -372,6 +237,7 @@
   animation-duration: 3s;
 }
 .contact-overlay {
+  color: white;
   animation: fadeIn;
   animation-duration: 3s;
 }
@@ -386,7 +252,7 @@
 }
 .a-contact {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .maps-card {
@@ -395,15 +261,15 @@
 }
 
 @media screen and (max-width: 500px) {
-  .psycho-title {
+  .jc-title {
     padding-top: 5px;
     margin-bottom: 10px;
   }
-  .psycho-text {
+  .jc-text {
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  .psycho-image {
+  .jc-image {
     margin-top: 10px;
     margin-bottom: 10px;
     animation: fadeIn;
