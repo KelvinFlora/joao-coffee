@@ -68,23 +68,27 @@ export default {
 </script>
 <style>
 .facebook-button:hover {
-  color: rgb(252, 212, 112);
+  color: #3d604d;
 }
 
 .instagram-button:hover {
-  color: rgb(252, 212, 112);
+  color: #3d604d;
 }
 
 .whatsapp-button:hover {
-  color: rgb(252, 212, 112);
+  color: #3d604d;
 }
 
 .email-button:hover {
-  color: rgb(252, 212, 112);
+  color: #3d604d;
 }
 
 .dev-link {
   text-decoration: none;
   color: white;
+}
+
+.dev-link:hover {
+  color: #3d604d;
 }
 </style>
