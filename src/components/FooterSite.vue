@@ -1,6 +1,6 @@
 <template>
   <!-- Footer -->
-  <footer class="bg-dark text-center text-white mt-auto">
+  <footer class="bg-primary text-center text-white mt-auto">
     <!-- Grid container -->
     <div class="container p-4 pb-0">
       <!-- Section: Social media -->
@@ -8,7 +8,7 @@
         <!-- Facebook -->
         <a
           class="btn text-light btn-floating m-1"
-          href="https://www.facebook.com/marciran.brisida"
+          href="https://www.facebook.com/profile.php?id=100048787341906"
           target="_blank"
           alt="Ícone do Facebook"
           role="button"
@@ -19,7 +19,7 @@
         <!-- Instagram -->
         <a
           class="btn text-light btn-floating m-1"
-          href="https://www.instagram.com/psi.marciranbrisida"
+          href="https://www.instagram.com/joao.coffee/"
           target="_blank"
           alt="Ícone do Instagram"
           role="button"
@@ -30,7 +30,7 @@
         <!-- WhatsApp -->
         <a
           class="btn text-light btn-floating m-1"
-          href="https://wa.me/+5535988434758"
+          href="https://wa.me/+5535998895249"
           target="_blank"
           alt="Ícone do Whatsapp"
           role="button"
@@ -40,7 +40,7 @@
         <!-- Email (precisa colocar link) -->
         <a
           class="btn text-light btn-floating m-1"
-          href="mailto:marciranbrisidapsi@gmail.com"
+          href="mailto:joao.coffee@outlook.com"
           target="_blank"
           alt="Ícone do email"
           role="button"
@@ -53,7 +53,10 @@
 
     <!-- Copyright -->
     <div class="text-center p-3 credits" style="background-color: rgba(0, 0, 0, 0.2)">
-      © 2023 Marciran Brisida - Todos os direitos reservados | Desenvolvido por Kelvin Flora
+      © 2023 João Coffee - Todos os direitos reservados | Desenvolvido por
+      <a class="dev-link" href="https://www.linkedin.com/in/kelvinflora/" target="_blank">
+        Kelvin Flora
+      </a>
     </div>
     <!-- Copyright -->
   </footer>
@@ -78,5 +81,10 @@ export default {
 
 .email-button:hover {
   color: rgb(252, 212, 112);
+}
+
+.dev-link {
+  text-decoration: none;
+  color: white;
 }
 </style>

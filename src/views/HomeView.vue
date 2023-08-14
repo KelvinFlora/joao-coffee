@@ -40,149 +40,151 @@
     </div>
 
     <!-- Contact -->
-    <div
-      class="container wow"
-      style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"
-    >
-      <h1 class="text-center pt-4 fw-bold contact-title">Contato</h1>
-    </div>
-    <div class="container pt-3 contact-info text-center wow">
-      <h2 class="contact-info-title">Informações de Contato</h2>
-      <p class="pt-3">
-        <a href="https://www.instagram.com/psi.marciranbrisida/" target="_blank" class="a-contact">
-          <i class="bi bi-person-vcard ps-2"></i>
-          João Vitor Pereira da Silva
-        </a>
-      </p>
-      <p>
-        <a href="https://wa.me/+5535988434758" target="_blank" class="a-contact">
-          <i class="bi bi-whatsapp ps-2"></i>
-          (35) 99889-5249
-        </a>
-      </p>
-      <p>
-        <a href="https://goo.gl/maps/jG4pjcxcGKxovvYQ7" target="_blank" class="a-contact">
-          <i class="bi bi-geo-alt-fill ps-2"></i>
-          Edifício Manhattan - Rua Francisco Garcia de Miranda Junior, Nº 130, Sala 203, Centro,
-          Três Pontas - MG
-        </a>
-      </p>
-      <p>
-        <a href="mailto:marciranbrisidapsi@gmail.com" target="_blank" class="a-contact">
-          <i class="bi bi-envelope-fill ps-2"></i>
-          marciranbrisidapsi@gmail.com
-        </a>
-      </p>
-    </div>
-    <div class="container py-0 mt-4 contact-overlay wow">
-      <div class="row">
-        <div class="col-12 col-lg-6 mb-4">
-          <form @submit="submitForm($event)">
-            <div class="row justify-content-center mb-3">
-              <div class="col-12">
-                <label for="formGroupExampleInput" class="form-label">Nome</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="formGroupExampleInput"
-                  placeholder="Digite seu nome"
-                  v-model="name"
-                  :disabled="sendingForm"
-                />
-              </div>
-            </div>
-            <div class="row justify-content-center mb-3">
-              <div class="col-12">
-                <label for="phone" class="form-label">Telefone</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="phone"
-                  name="phone"
-                  placeholder="(xx) xxxxx-xxxx"
-                  v-model="phone"
-                  @keypress="phoneMask($event)"
-                  :disabled="sendingForm"
-                />
-              </div>
-            </div>
-            <div class="row justify-content-center mb-3">
-              <div class="col-12">
-                <label for="exampleFormControlInput1" class="form-label">Email</label>
-                <input
-                  type="email"
-                  name="email"
-                  class="form-control"
-                  id="exampleFormControlInput1"
-                  placeholder="name@example.com"
-                  v-model="email"
-                  :disabled="sendingForm"
-                />
-              </div>
-            </div>
-            <div class="row justify-content-center mb-3">
-              <div class="col-12">
-                <label for="exampleFormControlTextarea1" class="form-label"
-                  >Digite sua mensagem:
-                </label>
-                <textarea
-                  class="form-control"
-                  id="exampleFormControlTextarea1"
-                  rows="6"
-                  v-model="msg"
-                  :disabled="sendingForm"
-                ></textarea>
-              </div>
-            </div>
-            <div class="row justify-content-center mb-3">
-              <div class="col-12">
-                <p v-if="formError" class="text-danger">{{ formError }}</p>
-                <p v-if="formSent" class="text-success">
-                  Recebemos a sua mensagem. Responderemos em breve! 😉
-                </p>
-                <div class="sub-button">
-                  <button
-                    type="submit"
-                    class="btn btn-primary submit-button mt-2 btn-lg w-50"
+    <div class="bg-light">
+      <div
+        class="container wow"
+        style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"
+      >
+        <h1 class="text-center pt-4 fw-bold contact-title">Contato</h1>
+      </div>
+      <div class="container pt-3 contact-info text-center wow">
+        <h2 class="contact-info-title">Informações de Contato</h2>
+        <p class="pt-3">
+          <a href="https://www.linkedin.com/in/joao197/" target="_blank" class="a-contact">
+            <i class="bi bi-person-vcard ps-2"></i>
+            João Vitor Pereira da Silva
+          </a>
+        </p>
+        <p>
+          <a href="https://wa.me/+5535998895249" target="_blank" class="a-contact">
+            <i class="bi bi-whatsapp ps-2"></i>
+            (35) 99889-5249
+          </a>
+        </p>
+        <p>
+          <a href="https://goo.gl/maps/TdnEHhfS4khSKyy39" target="_blank" class="a-contact">
+            <i class="bi bi-geo-alt-fill ps-2"></i>
+            Rua José Gonçalves Dias, Nº 382, Apartamento 301-A, Santa Luiza, Varginha, Minas Gerais,
+            Brasil, CEP: 37026710.
+          </a>
+        </p>
+        <p>
+          <a href="mailto:joao.coffee@outlook.com" target="_blank" class="a-contact">
+            <i class="bi bi-envelope-fill ps-2"></i>
+            joao.coffee@outlook.com
+          </a>
+        </p>
+      </div>
+      <div class="container py-0 mt-4 contact-overlay wow">
+        <div class="row">
+          <div class="col-12 col-lg-6 mb-4">
+            <form @submit="submitForm($event)">
+              <div class="row justify-content-center mb-3">
+                <div class="col-12">
+                  <label for="formGroupExampleInput" class="form-label">Nome</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="formGroupExampleInput"
+                    placeholder="Digite seu nome"
+                    v-model="name"
                     :disabled="sendingForm"
-                  >
-                    <span
-                      v-if="sendingForm"
-                      class="spinner-border spinner-border-sm me-2"
-                      role="status"
-                      aria-hidden="true"
-                    ></span>
-
-                    <span v-if="sendingForm">Enviando...</span>
-                    <span v-if="!sendingForm">Enviar</span>
-                  </button>
+                  />
                 </div>
               </div>
+              <div class="row justify-content-center mb-3">
+                <div class="col-12">
+                  <label for="phone" class="form-label">Telefone</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="phone"
+                    name="phone"
+                    placeholder="(xx) xxxxx-xxxx"
+                    v-model="phone"
+                    @keypress="phoneMask($event)"
+                    :disabled="sendingForm"
+                  />
+                </div>
+              </div>
+              <div class="row justify-content-center mb-3">
+                <div class="col-12">
+                  <label for="exampleFormControlInput1" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    name="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="name@example.com"
+                    v-model="email"
+                    :disabled="sendingForm"
+                  />
+                </div>
+              </div>
+              <div class="row justify-content-center mb-3">
+                <div class="col-12">
+                  <label for="exampleFormControlTextarea1" class="form-label"
+                    >Digite sua mensagem:
+                  </label>
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="6"
+                    v-model="msg"
+                    :disabled="sendingForm"
+                  ></textarea>
+                </div>
+              </div>
+              <div class="row justify-content-center mb-3">
+                <div class="col-12">
+                  <p v-if="formError" class="text-danger">{{ formError }}</p>
+                  <p v-if="formSent" class="text-success">
+                    Recebemos a sua mensagem. Responderemos em breve! 😉
+                  </p>
+                  <div class="sub-button">
+                    <button
+                      type="submit"
+                      class="btn btn-primary submit-button mt-2 btn-lg w-50"
+                      :disabled="sendingForm"
+                    >
+                      <span
+                        v-if="sendingForm"
+                        class="spinner-border spinner-border-sm me-2"
+                        role="status"
+                        aria-hidden="true"
+                      ></span>
+
+                      <span v-if="sendingForm">Enviando...</span>
+                      <span v-if="!sendingForm">Enviar</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-12 col-lg-6 mb-4 badge text-wrap justify-content-center wow">
+            <div class="text-center fs-3 pt-3 wpp-contact">
+              Entre em contato através do WhatsApp:
             </div>
-          </form>
-        </div>
-        <div class="col-12 col-lg-6 mb-4 badge text-wrap justify-content-center wow">
-          <div class="text-center fs-3 pt-3 text-dark wpp-contact">
-            Entre em contato através do WhatsApp:
-          </div>
-          <div class="pt-2">
-            <a href="https://wa.me/+5535988434758" target="_blank" rel="noopener noreferrer">
-              <button type="button" class="btn btn-success wpp-button-contact-page">
-                <i class="bi bi-whatsapp"></i>
-                (35) 98843-4758
-              </button>
-            </a>
-          </div>
-          <div class="pt-2 maps-card wow">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14862.038041234116!2d-45.51967893022461!3d-21.36983379999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ca83ea1f90ceb5%3A0x25acdb02d6964a9f!2sR.%20Francisco%20Garc%C3%ADa%20Miranda%2C%20130%20-%20Botafogo%2C%20Tr%C3%AAs%20Pontas%20-%20MG%2C%2037190-000!5e0!3m2!1spt-BR!2sbr!4v1680636619303!5m2!1spt-BR!2sbr"
-              width="100%"
-              height="350"
-              style="border: 0; border-radius: 1rem"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
+            <div class="pt-2">
+              <a href="https://wa.me/+5535998895249" target="_blank" rel="noopener noreferrer">
+                <button type="button" class="btn btn-success wpp-button-contact-page">
+                  <i class="bi bi-whatsapp"></i>
+                  (35) 99889-5249
+                </button>
+              </a>
+            </div>
+            <div class="pt-2 maps-card wow">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3710.283831108484!2d-45.44938848833313!3d-21.574841291549554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ca92a1088bd901%3A0x567dcd0f0004c5a2!2sR.%20Jos%C3%A9%20Gon%C3%A7alves%20Dias%2C%20382%20-%20301%20a%20-%20Santa%20Luiza%2C%20Varginha%20-%20MG%2C%2037026-710!5e0!3m2!1spt-BR!2sbr!4v1692025487344!5m2!1spt-BR!2sbr"
+                width="100%"
+                height="350"
+                style="border: 0; border-radius: 1rem"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
           </div>
         </div>
       </div>
@@ -212,24 +214,29 @@
 }
 
 .contact-title {
-  color: white;
+  color: #4f3333;
   margin-top: 50px;
   margin-bottom: 50px;
   animation: fadeIn;
   animation-duration: 3s;
 }
 .contact-info {
-  color: white;
+  color: #4f3333;
   margin-bottom: 50px;
   animation: fadeIn;
   animation-duration: 3s;
 }
 .contact-info-title {
-  color: white;
+  color: #4f3333;
   margin-bottom: 30px;
   animation: fadeIn;
   animation-duration: 3s;
 }
+
+.wpp-contact {
+  color: #4f3333;
+}
+
 .wpp-button-contact-page {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -237,7 +244,7 @@
   animation-duration: 3s;
 }
 .contact-overlay {
-  color: white;
+  color: #4f3333;
   animation: fadeIn;
   animation-duration: 3s;
 }
@@ -252,7 +259,7 @@
 }
 .a-contact {
   text-decoration: none;
-  color: white;
+  color: #4f3333;
 }
 
 .maps-card {
@@ -445,7 +452,7 @@ export default {
         `${formData.message}`;
 
       window.open(
-        `https://api.whatsapp.com/send/?phone=5535988434758&text=${encodeURI(
+        `https://api.whatsapp.com/send/?phone=5535998895249&text=${encodeURI(
           whatsText
         )}&type=phone_number&app_absent=0`,
         "_blank"
