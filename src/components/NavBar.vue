@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg bg-secondary">
+  <nav class="navbar navbar-expand-lg bg-secondary fixed-top">
     <div class="container">
       <a class="navbar-brand text-light" href="#">
         <router-link class="nav-link2" to="/"
@@ -33,6 +33,12 @@
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/servicos">Serviços</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/cursos">Cursos</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/empregos">Central de Empregos</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/contato">Contato</router-link>
