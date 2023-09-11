@@ -1,11 +1,14 @@
 <template>
   <main class="bg-primary">
     <!-- Initial text -->
+    <div>
+      <img class="banner" src="../../public/images/banner.jpg" alt="" width="100%" />
+    </div>
+    <div class="container">
+      <h1 class="jc-title wow text-center">Minha missão é te fazer apaixonar por café!</h1>
+    </div>
     <div class="container pt-4 pb-4">
       <div class="row align-self-xl-center">
-        <h1 class="jc-title wow">
-          Explorando o Mundo dos Cafés Especiais: Uma Jornada Sensorial e Profissional
-        </h1>
         <h2 class="col-xl-6 pt-2 jc-text wow">
           <p>
             O universo dos cafés especiais é uma verdadeira ode aos sentidos, onde aromas complexos,
@@ -194,7 +197,8 @@
 <style>
 .jc-title {
   color: white;
-  padding-top: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   margin-bottom: 10px;
   animation: fadeInDown;
   animation-duration: 2s;
