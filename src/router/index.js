@@ -15,26 +15,24 @@ const router = createRouter({
       component: () => import("../views/AboutView.vue")
     },
     {
-      path: "/servicos",
-      name: "servicos",
-      component: () => import("../views/ServicesView.vue")
-    },
-    {
       path: "/cursos",
       name: "cursos",
-      component: () => import("../views/Courses.vue")
+      component: () => import("../views/CoursesView.vue")
     },
     {
       path: "/empregos",
       name: "empregos",
-      component: () => import("../views/Jobs.vue")
+      component: () => import("../views/JobsView.vue")
     },
     {
       path: "/contato",
       name: "contato",
       component: () => import("../views/ContactView.vue")
     }
-  ]
+  ],
+  scrollBehavior(to, from, savedPosition) {
+    return { left: 0, top: 0 };
+  }
 });
 
 export default router;

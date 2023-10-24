@@ -26,13 +26,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="nav">
           <li class="nav-item">
-            <router-link class="nav-link" to="/">Início</router-link>
+            <a class="nav-link" href="/#">Home</a>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/sobre">Sobre</router-link>
+            <a class="nav-link" href="/#servicos">Serviços</a>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/servicos">Serviços</router-link>
+            <a class="nav-link" href="/#contato">Contato</a>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/cursos">Cursos</router-link>
@@ -40,8 +40,50 @@
           <li class="nav-item">
             <router-link class="nav-link" to="/empregos">Central de Empregos</router-link>
           </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <nav class="navbar navbar-expand-lg bg-secondary fixed">
+    <div class="container">
+      <a class="navbar-brand text-light" href="#">
+        <router-link class="nav-link2" to="/"
+          ><img
+            src="./icons/iconjc.png"
+            alt="Logo"
+            width="100"
+            height="100"
+            class="d-inline-block align-text-top"
+          />
+        </router-link>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav">
           <li class="nav-item">
-            <router-link class="nav-link" to="/contato">Contato</router-link>
+            <a class="nav-link" href="/#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/#servicos">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/#contato">Contato</a>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/cursos">Cursos</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/empregos">Central de Empregos</router-link>
           </li>
         </ul>
       </div>
