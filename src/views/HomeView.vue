@@ -11,9 +11,9 @@
     <!-- Carousel -->
 
     <div class="owl-carousel">
-      <div class="item"><img src="/images/coffee2.jpg" /></div>
-      <div class="item"><img src="/images/barista2.jpg" /></div>
-      <div class="item"><img src="/images/roast2.jpg" /></div>
+      <div class="item"><img src="../../public/images/coffee2.jpg" /></div>
+      <div class="item"><img src="../../public/images/barista2.jpg" /></div>
+      <div class="item"><img src="../../public/images/roast2.jpg" /></div>
       <!-- Add more slides as needed -->
     </div>
 
@@ -27,7 +27,7 @@
           <div class="row">
             <div class="col-md-6 d-flex justify-content-center align-items-center">
               <img
-                src="images/barista.jpg"
+                src="../../public/images/barista.jpg"
                 class="img-fluid rounded-center align-items-center card-img"
                 alt="Helcio Baroni tocando piano junto ao seu aluno"
               />
@@ -66,7 +66,7 @@
             </div>
             <div class="col-md-6 d-flex justify-content-center align-items-center">
               <img
-                src="images/roast.jpg"
+                src="../../public/images/roast.jpg"
                 class="img-fluid card-img"
                 alt="Helcio Baroni tocando piano junto ao seu aluno"
               />
@@ -88,7 +88,7 @@
           <div class="row">
             <div class="col-md-6 d-flex justify-content-center align-items-center">
               <img
-                src="images/coffeetaste5.jpg"
+                src="../../public/images/coffeetaste5.jpg"
                 class="img-fluid rounded-center align-items-center card-img"
                 alt="Helcio Baroni tocando piano junto ao seu aluno"
               />
