@@ -5,8 +5,8 @@
     <div class="video-curso text-center">
       <iframe
         class="video-curso"
-        width="560"
-        height="315"
+        width="800"
+        height="500"
         src="https://www.youtube.com/embed/rJub1bfCNAM?si=fX2K_NGSJk1zFmpt"
         title="YouTube video player"
         frameborder="0"
@@ -44,5 +44,10 @@
 <style>
 .video-curso {
   border-radius: 0.5rem;
+}
+@media (max-width: 768px) {
+  .video-curso {
+    width: 100%;
+  }
 }
 </style>
