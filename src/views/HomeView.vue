@@ -18,7 +18,8 @@
     </div>
 
     <!-- Services -->
-    <div id="servicos" class="text1container">
+    <div id="servicos"></div>
+    <div class="text1container">
       <div class="container card-container">
         <div class="text-center pt-5 title-section wow">
           <h1 class="text-white">Serviços</h1>
@@ -115,7 +116,8 @@
     </div>
     <!-- Contact -->
 
-    <div id="contato" class="bg-light">
+    <div id="contato"></div>
+    <div class="bg-light">
       <div
         class="container wow"
         style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"
