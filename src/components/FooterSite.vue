@@ -13,13 +13,13 @@
           </div>
           <div class="col-md-3 text-end pe-4">
             <div class="row">
-              <div class="col-md-12 pt-5">João Coffee</div>
+              <div class="col-md-12 footer-text footer-text-jc">João Coffee</div>
             </div>
             <div class="row">
-              <div class="col-md-12"><i class="fa fa-phone"></i>(35)99889-5249</div>
+              <div class="col-md-12 footer-text"><i class="fa fa-phone"></i>(35)99889-5249</div>
             </div>
             <div class="row">
-              <div class="col-md-12">
+              <div class="col-md-12 footer-text">
                 <i class="fa fa-envelope"></i>
                 <a class="text-white" href="mailto:joao.coffee@outlook.com"
                   >joao.coffee@outlook.com</a
@@ -30,9 +30,9 @@
         </div>
       </div>
       <!-- Facebook -->
-      <div class="text-end">
+      <div class="footer-icons">
         <a
-          class="btn text-light text-end btn-floating p-1"
+          class="btn text-light text-end btn-floating footer-icons p-1"
           href="https://www.facebook.com/profile.php?id=100048787341906"
           target="_blank"
           alt="Ícone do Facebook"
@@ -43,7 +43,7 @@
 
         <!-- Instagram -->
         <a
-          class="btn text-light text-end btn-floating p-1"
+          class="btn text-light text-end btn-floating footer-icons p-1"
           href="https://www.instagram.com/joao.coffee/"
           target="_blank"
           alt="Ícone do Instagram"
@@ -54,7 +54,7 @@
 
         <!-- WhatsApp -->
         <a
-          class="btn text-light text-end btn-floating p-1"
+          class="btn text-light text-end btn-floating footer-icons p-1"
           href="https://wa.me/+5535998895249"
           target="_blank"
           alt="Ícone do Whatsapp"
@@ -64,7 +64,7 @@
 
         <!-- Linkedin -->
         <a
-          class="btn text-light text-end btn-floating p-1"
+          class="btn text-light text-end btn-floating footer-icons p-1"
           href="https://wa.me/+5535998895249"
           target="_blank"
           alt="Ícone do Whatsapp"
@@ -74,7 +74,7 @@
 
         <!-- Email (precisa colocar link) -->
         <a
-          class="btn text-light text-end btn-floating p-1 pe-4"
+          class="btn text-light btn-floating footer-icons p-1 pe-4"
           href="mailto:joao.coffee@outlook.com"
           target="_blank"
           alt="Ícone do email"
@@ -138,5 +138,30 @@ export default {
   width: 20%;
   border-radius: 0.5rem;
   margin-top: 50px;
+}
+.footer-text {
+  text-align: right;
+  padding-top: 2px;
+}
+.footer-text-jc {
+  padding-top: 50px;
+}
+.footer-icons {
+  text-align: right;
+}
+
+@media screen and (max-width: 500px) {
+  .footer-text {
+    text-align: center !important;
+    padding-top: 5px !important;
+  }
+  .footer-icons {
+    text-align: center !important;
+  }
+  .logo-footer {
+    width: 20%;
+    border-radius: 0.5rem;
+    margin-top: 25px;
+  }
 }
 </style>

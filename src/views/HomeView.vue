@@ -21,8 +21,8 @@
     <div id="servicos"></div>
     <div class="text1container">
       <div class="container card-container">
-        <div class="text-center pt-5 title-section wow">
-          <h1 class="text-white">Serviços</h1>
+        <div class="text-center title-section wow">
+          <h1 class="text-white services-title">Serviços</h1>
         </div>
         <div class="card mb-3 rounded-start card-1 wow">
           <div class="row">
@@ -368,6 +368,10 @@
   animation-duration: 2s;
   width: 60%;
 }
+.title-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 
 .contact-title {
   color: #3b271c(79, 51, 51);
@@ -468,8 +472,8 @@
 
 @media screen and (max-width: 500px) {
   .jc-title {
-    padding-top: 50px;
-    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   .jc-text {
     margin-top: 20px;
@@ -500,8 +504,13 @@
     animation: fadeIn;
     animation-duration: 3s;
   }
+  .title-section {
+    padding: 0px !important;
+  }
   .services-title {
-    margin-top: 20px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding: 0px !important;
     margin-bottom: 20px;
   }
   .card {
@@ -511,13 +520,19 @@
     border-width: 3px !important;
     border-color: rgba(0, 0, 0, 0.336) !important;
     border-radius: 0rem !important;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     animation: fadeIn;
     animation-duration: 3s;
   }
   .card-group {
     margin-bottom: 20px;
+  }
+  .card-title {
+    text-align: center;
+  }
+  .card-text {
+    text-align: center;
   }
   .contact-title {
     margin-top: 20px;
@@ -544,6 +559,10 @@
   .maps-card {
     margin-left: 0%;
     margin-right: 0%;
+  }
+  .banner {
+    width: 100%;
+    height: auto;
   }
 }
 </style>
