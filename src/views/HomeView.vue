@@ -37,12 +37,14 @@
               <div class="card-body">
                 <h5 class="card-title">Consultoria Barista</h5>
                 <p class="card-text">
-                  Como barista e apaixonado pelo universo do café, dedico-me a compartilhar meu
-                  conhecimento através de treinamentos personalizados para cafeterias e eventos
-                  especiais. Minhas aulas envolventes exploram desde técnicas de extração até a arte
-                  da latte, capacitando equipes a oferecerem experiências únicas e cativantes aos
-                  amantes do café. Com cada xícara, meu compromisso é elevar a cultura do café a
-                  novos patamares de excelência.
+                  Enquanto barista e entusiasta apaixonado pelo mundo do café, empenho-me na
+                  disseminação do meu conhecimento por meio de programas de treinamento altamente
+                  personalizados, destinados a cafeterias e ocasiões especiais. Minhas instruções
+                  cativantes abrangem uma ampla gama de tópicos, que vão desde as técnicas de
+                  extração até a maestria na preparação de lattes, com o objetivo de capacitar
+                  equipes a proporcionar experiências singulares e envolventes aos apreciadores de
+                  café. A cada xícara que é servida, meu compromisso consiste em elevar a cultura do
+                  café a novos níveis de excelência.
                 </p>
               </div>
             </div>
@@ -56,12 +58,14 @@
               <div class="card-body">
                 <h5 class="card-title">Consultoria Torras</h5>
                 <p class="card-text">
-                  Através do meu serviço de torra de café personalizado para empresas, crio curvas
-                  de torras sob medida, ressaltando os perfis de sabor desejados e aprimorando a
-                  qualidade final do produto. Minha abordagem meticulosa combina ciência e paixão,
-                  garantindo que cada lote atinja sua expressão máxima de sabor e aroma. Como
-                  parceiro confiável, estou comprometido em elevar a experiência de café das marcas,
-                  deixando uma marca distinta e irresistível.
+                  Por meio de minha prestação de serviços especializados em torra de café para
+                  empresas, desenvolvo perfis de torra personalizados, realçando os sabores
+                  desejados e refinando a qualidade do produto final. Minha metodologia meticulosa
+                  integra a rigorosa aplicação de princípios científicos com a dedicação apaixonada,
+                  assegurando que cada lote alcance a sua máxima expressão em termos de sabor e
+                  aroma. Como um parceiro de confiança, estou firmemente empenhado em aprimorar a
+                  experiência do café para as marcas, criando uma identidade distintiva e
+                  irresistível.
                 </p>
               </div>
             </div>
@@ -74,10 +78,16 @@
             </div>
             <div class="col-md-8 d-md-none">
               <div class="card-body">
-                <h5 class="card-title">Eventos</h5>
+                <h5 class="card-title">Consultoria Provas</h5>
                 <p class="card-text">
-                  Apresentações em concertos de piano solo, concertos de música de câmara,
-                  casamentos, eventos corporativos e sociais, atividades educacionais.
+                  Através da minha consultoria em degustação de café, ajudo os produtores a
+                  aprimorar a qualidade do café que cultivam. Guio-os em descobrir diferentes
+                  sabores e aromas, entender como a torra afeta o sabor e identificar o que torna
+                  seu café especial. Minha assistência personalizada permite que tomem decisões
+                  melhores, melhorem suas técnicas de produção e ofereçam aos consumidores um café
+                  excepcional e memorável. Ao conhecer o resultado do trabalho na produção de café,
+                  os produtores podem comercializá-lo de maneira mais eficaz, pois estarão cientes
+                  de sua qualidade.
                 </p>
               </div>
             </div>
