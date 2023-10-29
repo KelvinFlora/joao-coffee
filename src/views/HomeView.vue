@@ -270,7 +270,7 @@
 </template>
 <style>
 .owl-carousel {
-  background-color: #49604c;
+  background-color: #0a5640;
   padding-top: 200px;
   padding-bottom: 200px;
 }

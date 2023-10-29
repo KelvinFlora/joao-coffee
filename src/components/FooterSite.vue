@@ -8,16 +8,15 @@
         <div class="row hidden-xs">
           <div class="col-md-3"></div>
           <div class="col-md-6 logo-container">
-            <div class="footer-logo-message pb-3">Realização</div>
             <img class="logo-footer pe-1" src="../../public/images/logo-educacional.png" />
             <img class="logo-footer ps-1" src="../../public/images/logo-jc.png" />
           </div>
           <div class="col-md-3 text-end pe-4">
             <div class="row">
-              <div class="col-md-12 pt-4">João Coffee</div>
+              <div class="col-md-12 pt-5">João Coffee</div>
             </div>
             <div class="row">
-              <div class="col-md-12"><i class="fa fa-phone"></i> (35)99889-5249</div>
+              <div class="col-md-12"><i class="fa fa-phone"></i>(35)99889-5249</div>
             </div>
             <div class="row">
               <div class="col-md-12">
@@ -138,5 +137,6 @@ export default {
 .logo-footer {
   width: 20%;
   border-radius: 0.5rem;
+  margin-top: 50px;
 }
 </style>

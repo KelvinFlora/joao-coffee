@@ -28,6 +28,7 @@
   height: 50%;
   transition: 0.3s; /* Adiciona uma transição suave para o efeito hover */
   padding: 20px;
+  padding-bottom: 200px;
 }
 
 .contratado:hover,
