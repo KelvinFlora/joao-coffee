@@ -78,16 +78,16 @@
             </div>
             <div class="col-md-8 d-md-none">
               <div class="card-body">
-                <h5 class="card-title">Consultoria Provas</h5>
+                <h5 class="card-title">Consultoria Torras</h5>
                 <p class="card-text">
-                  Através da minha consultoria em degustação de café, ajudo os produtores a
-                  aprimorar a qualidade do café que cultivam. Guio-os em descobrir diferentes
-                  sabores e aromas, entender como a torra afeta o sabor e identificar o que torna
-                  seu café especial. Minha assistência personalizada permite que tomem decisões
-                  melhores, melhorem suas técnicas de produção e ofereçam aos consumidores um café
-                  excepcional e memorável. Ao conhecer o resultado do trabalho na produção de café,
-                  os produtores podem comercializá-lo de maneira mais eficaz, pois estarão cientes
-                  de sua qualidade.
+                  Por meio de minha prestação de serviços especializados em torra de café para
+                  empresas, desenvolvo perfis de torra personalizados, realçando os sabores
+                  desejados e refinando a qualidade do produto final. Minha metodologia meticulosa
+                  integra a rigorosa aplicação de princípios científicos com a dedicação apaixonada,
+                  assegurando que cada lote alcance a sua máxima expressão em termos de sabor e
+                  aroma. Como um parceiro de confiança, estou firmemente empenhado em aprimorar a
+                  experiência do café para as marcas, criando uma identidade distintiva e
+                  irresistível.
                 </p>
               </div>
             </div>
