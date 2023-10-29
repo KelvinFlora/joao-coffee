@@ -347,9 +347,6 @@
 .banner {
   width: 100%;
 }
-.text2bg {
-  background-color: #49604c;
-}
 .jc-title {
   color: white;
   padding-top: 50px;
@@ -373,27 +370,27 @@
 }
 
 .contact-title {
-  color: rgb(79, 51, 51);
+  color: #3b271c(79, 51, 51);
 
   margin-bottom: 50px;
   animation: fadeIn;
   animation-duration: 3s;
 }
 .contact-info {
-  color: #4f3333;
+  color: #3b271c;
   margin-bottom: 50px;
   animation: fadeIn;
   animation-duration: 3s;
 }
 .contact-info-title {
-  color: #4f3333;
+  color: #3b271c;
   margin-bottom: 30px;
   animation: fadeIn;
   animation-duration: 3s;
 }
 
 .wpp-contact {
-  color: #4f3333;
+  color: #3b271c;
 }
 
 .wpp-button-contact-page {
@@ -403,7 +400,7 @@
   animation-duration: 3s;
 }
 .contact-overlay {
-  color: #4f3333;
+  color: #3b271c;
   animation: fadeIn;
   animation-duration: 3s;
 }
@@ -418,7 +415,7 @@
 }
 .a-contact {
   text-decoration: none;
-  color: #4f3333;
+  color: #3b271c;
 }
 
 .maps-card {
@@ -428,7 +425,7 @@
 
 .card {
   max-width: 1440px;
-  background-color: #4f3333 !important;
+  background-color: #3b271c !important;
   color: white;
   border: none !important;
   padding-top: 90px;
