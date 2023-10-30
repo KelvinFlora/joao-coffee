@@ -123,6 +123,51 @@
           </div>
         </div>
       </div>
+      <div class="container card-container2">
+        <div class="card mb-3 rounded-end card-2 wow">
+          <div class="row">
+            <div class="col-md-6 d-none d-md-flex align-items-center">
+              <div class="card-body">
+                <h5 class="card-title">Cursos João Coffee Educacional</h5>
+                <p class="card-text">
+                  A João Coffee Educacional é a porta de entrada para o sucesso profissional no
+                  mundo do café. Nossos cursos abrangem uma ampla variedade de áreas relacionadas ao
+                  café e são projetados para capacitar os alunos a desenvolver habilidades de alto
+                  nível. Com opções de aprendizado tanto online quanto presencial, oferecemos
+                  flexibilidade para atender às necessidades de todos os interessados. Ao se
+                  matricular em nossos cursos, os alunos terão a oportunidade de adquirir
+                  conhecimento e competências valiosas que os colocarão à frente no competitivo
+                  mercado de trabalho do café. Este é o seu caminho para o sucesso no universo do
+                  café!
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center align-items-center">
+              <img
+                src="../../public/images/courses.jpg"
+                class="img-fluid card-img"
+                alt="Helcio Baroni tocando piano junto ao seu aluno"
+              />
+            </div>
+            <div class="col-md-8 d-md-none">
+              <div class="card-body">
+                <h5 class="card-title">Cursos João Coffee Educacional</h5>
+                <p class="card-text">
+                  A João Coffee Educacional é a porta de entrada para o sucesso profissional no
+                  mundo do café. Nossos cursos abrangem uma ampla variedade de áreas relacionadas ao
+                  café e são projetados para capacitar os alunos a desenvolver habilidades de alto
+                  nível. Com opções de aprendizado tanto online quanto presencial, oferecemos
+                  flexibilidade para atender às necessidades de todos os interessados. Ao se
+                  matricular em nossos cursos, os alunos terão a oportunidade de adquirir
+                  conhecimento e competências valiosas que os colocarão à frente no competitivo
+                  mercado de trabalho do café. Este é o seu caminho para o sucesso no universo do
+                  café!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Contact -->
 

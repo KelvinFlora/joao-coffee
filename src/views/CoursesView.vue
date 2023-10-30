@@ -29,8 +29,9 @@
     <p>- Cafés Especiais</p>
   </div>
 
-  <div class="calendar-container text-center p-2 pt-2">
+  <div class="calendar-container text-center ps-2 pe-2">
     <iframe
+      class="calendar text-center"
       src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23795548&ctz=America%2FSao_Paulo&title=Jo%C3%A3o%20Coffee%20Educacional&showTitle=0&showPrint=0&showTabs=0&showCalendars=0&showTz=0&src=am9hb2NvZmZlZWVkdWNhY2lvbmFsQGdtYWlsLmNvbQ&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=cHQtYnIuYnJhemlsaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%2333B679&color=%230B8043"
       style="border: solid 1px #777"
       width="600"
@@ -50,9 +51,14 @@
     width: 100%;
   }
   .calendar-container {
-    width: 300px;
-    height: 200px;
+    width: 50px !important;
+    height: 100px !important;
     margin-bottom: 200px;
+  }
+  .calendar {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 50px;
   }
 }
 </style>
