@@ -326,12 +326,12 @@
 <style>
 .owl-carousel {
   background-color: #0a5640;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 100px;
+  padding-bottom: 150px;
 }
 .owl-carousel,
 .owl-stage {
-  min-height: 60vh;
+  min-height: 20vh;
 }
 
 .owl-nav {
