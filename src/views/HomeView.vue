@@ -350,7 +350,7 @@
   justify-content: space-around;
   min-height: 100px;
   font-size: 5rem !important;
-  margin-top: -50vh;
+  margin-top: -60vh;
 }
 
 .owl-carousel .owl-nav button.owl-next,
