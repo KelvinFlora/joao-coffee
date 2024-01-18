@@ -362,7 +362,7 @@
 
 .owl-carousel .item {
   /* margin: 8px; */
-  transition: all 0.8s;
+  /*transition: all 0.8s;*/
 }
 
 .owl-carousel .item img {
@@ -375,7 +375,7 @@
 }
 
 .current {
-  margin-top: 60px !important;
+  margin-top: 0px !important;
 }
 
 .text-title {
@@ -763,11 +763,11 @@ $(document).ready(function () {
     loop: true, // Enable loop
     nav: true,
     center: true,
-    // autoplay: true,
-    // autoplayTimeout: 3000,
-    smartSpeed: 1500,
-    animateIn: "easein",
-    animateOut: "easeout",
+    autoplay: true,
+    autoplayTimeout: 3000,
+    // smartSpeed: 1500,
+    // animateIn: "easein",
+    // animateOut: "easeout",
     margin: 24,
     responsive: {
       0: {
@@ -775,7 +775,10 @@ $(document).ready(function () {
       },
       1000: {
         items: 3,
-        onChanged: updateCurrentSlide // Callback function when slide changes
+        onInitialized: function (event) {
+          updateCurrentSlide(event);
+        },
+        onTranslated: updateCurrentSlide // Callback function when slide changes
       }
     }
   });
