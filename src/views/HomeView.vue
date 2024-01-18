@@ -763,8 +763,8 @@ $(document).ready(function () {
     loop: true, // Enable loop
     nav: true,
     center: true,
-    autoplay: true,
-    autoplayTimeout: 3000,
+    // autoplay: true,
+    // autoplayTimeout: 3000,
     smartSpeed: 1500,
     animateIn: "easein",
     animateOut: "easeout",
