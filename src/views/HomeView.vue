@@ -19,7 +19,6 @@
       <div class="item"><img src="../../public/images/carousel7.jpg" /></div>
       <div class="item"><img src="../../public/images/carousel8.jpg" /></div>
       <div class="item"><img src="../../public/images/carousel9.jpg" /></div>
-      <div class="item"><img src="../../public/images/carousel10.jpg" /></div>
       <div class="item"><img src="../../public/images/carousel11.jpg" /></div>
       <div class="item"><img src="../../public/images/carousel12.jpg" /></div>
       <div class="item"><img src="../../public/images/carousel13.jpg" /></div>
