@@ -16,12 +16,13 @@
       <div class="item"><img src="../../public/images/carousel3.jpg" /></div>
       <div class="item"><img src="../../public/images/carousel4.jpg" /></div>
       <div class="item"><img src="../../public/images/carousel5.jpg" /></div>
-      <div class="item"><img src="../../public/images/carousel6.jpg" /></div>
       <div class="item"><img src="../../public/images/carousel7.jpg" /></div>
       <div class="item"><img src="../../public/images/carousel8.jpg" /></div>
       <div class="item"><img src="../../public/images/carousel9.jpg" /></div>
       <div class="item"><img src="../../public/images/carousel10.jpg" /></div>
       <div class="item"><img src="../../public/images/carousel11.jpg" /></div>
+      <div class="item"><img src="../../public/images/carousel12.jpg" /></div>
+      <div class="item"><img src="../../public/images/carousel13.jpg" /></div>
       <!-- Add more slides as needed -->
     </div>
 
@@ -339,7 +340,7 @@
 }
 .owl-carousel,
 .owl-stage {
-  min-height: 20vh;
+  min-height: 80vh;
 }
 
 .owl-nav {
@@ -350,7 +351,7 @@
   justify-content: space-around;
   min-height: 100px;
   font-size: 5rem !important;
-  margin-top: -30vh;
+  margin-top: -40vh;
 }
 
 .owl-carousel .owl-nav button.owl-next,
@@ -375,7 +376,7 @@
 }
 
 .current {
-  margin-top: 100px !important;
+  margin-top: 60px !important;
 }
 
 .text-title {
@@ -763,8 +764,8 @@ $(document).ready(function () {
     loop: true, // Enable loop
     nav: true,
     center: true,
-    //  autoplay: true,
-    // autoplayTimeout: 1520,
+    autoplay: true,
+    autoplayTimeout: 3000,
     smartSpeed: 1500,
     animateIn: "easein",
     animateOut: "easeout",
