@@ -11,9 +11,17 @@
     <!-- Carousel -->
 
     <div class="owl-carousel">
-      <div class="item"><img src="../../public/images/coffee2.jpg" /></div>
-      <div class="item"><img src="../../public/images/barista2.jpg" /></div>
-      <div class="item"><img src="../../public/images/roast2.jpg" /></div>
+      <div class="item"><img src="../../public/images/carousel1.jpg" /></div>
+      <div class="item"><img src="../../public/images/carousel2.jpg" /></div>
+      <div class="item"><img src="../../public/images/carousel3.jpg" /></div>
+      <div class="item"><img src="../../public/images/carousel4.jpg" /></div>
+      <div class="item"><img src="../../public/images/carousel5.jpg" /></div>
+      <div class="item"><img src="../../public/images/carousel6.jpg" /></div>
+      <div class="item"><img src="../../public/images/carousel7.jpg" /></div>
+      <div class="item"><img src="../../public/images/carousel8.jpg" /></div>
+      <div class="item"><img src="../../public/images/carousel9.jpg" /></div>
+      <div class="item"><img src="../../public/images/carousel10.jpg" /></div>
+      <div class="item"><img src="../../public/images/carousel11.jpg" /></div>
       <!-- Add more slides as needed -->
     </div>
 
