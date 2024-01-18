@@ -339,7 +339,7 @@
 }
 .owl-carousel,
 .owl-stage {
-  min-height: 80vh;
+  min-height: 110vh;
 }
 
 .owl-nav {
@@ -350,7 +350,7 @@
   justify-content: space-around;
   min-height: 100px;
   font-size: 5rem !important;
-  margin-top: -40vh;
+  margin-top: -50vh;
 }
 
 .owl-carousel .owl-nav button.owl-next,
