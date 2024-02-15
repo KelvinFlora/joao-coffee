@@ -107,7 +107,7 @@
             <input
               type="text"
               class="form-control"
-              placeholder="Digite seu CPF ou CNPJ"
+              placeholder="Digite seu CPF ou CNPJ (Apenas Números)"
               v-model="cpf"
               @keypress="cpfMask($event)"
             />
@@ -548,20 +548,8 @@ export default {
         return;
       }
 
-      // Adicionar pontos e hífen automaticamente
-      let cpfWithoutSpecialChars = this.cpf.replace(/[.-]/g, "");
-      cpfWithoutSpecialChars += key;
-      let formattedCPF = "";
-      for (let i = 0; i < cpfWithoutSpecialChars.length; i++) {
-        if (i === 3 || i === 6) {
-          formattedCPF += ".";
-        } else if (i === 9) {
-          formattedCPF += "-";
-        }
-        formattedCPF += cpfWithoutSpecialChars[i];
-      }
-
-      this.cpf = formattedCPF;
+      // Concatenar o valor da tecla digitada ao CPF
+      this.cpf += key;
     },
 
     openTermsModal() {
