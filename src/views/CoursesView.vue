@@ -1,8 +1,8 @@
 <template>
   <div class="container">
-    <h1 class="curso-title text-center p-5 pt-2">Cursos</h1>
+    <h1 class="curso-title text-center p-5 pt-2 wow">Cursos</h1>
     <div>
-      <div class="text-center">
+      <div class="text-center title-course1">
         <h2>Introdução à classificação e degustação de cafés especiais</h2>
       </div>
       <div class="container">
@@ -15,7 +15,7 @@
                 alt="Helcio Baroni tocando piano junto ao seu aluno"
               />
             </div>
-            <div class="col-md-6 d-flex align-items-center">
+            <div class="col-md-6 d-flex align-items-center course-desc wow">
               <div class="">
                 <h4 class="card-title">Conteúdo encontrado nesse curso:</h4>
                 <h5>Classificação:</h5>
@@ -432,7 +432,25 @@
   border-radius: 2rem !important;
   align-items: center !important;
   text-align: center !important;
+  animation: fadeIn;
+  animation-duration: 3s;
 }
+
+.course-desc {
+  animation: fadeIn;
+  animation-duration: 3s;
+}
+
+.title-course1 {
+  animation: fadeIn;
+  animation-duration: 3s;
+}
+
+.curso-title {
+  animation: fadeIn;
+  animation-duration: 3s;
+}
+
 @media (max-width: 768px) {
   .video-curso {
     width: 100%;
@@ -451,6 +469,7 @@
     width: 70% !important;
     border-radius: 2rem !important;
     align-items: center !important;
+    padding-bottom: 100px;
   }
 }
 </style>
@@ -575,6 +594,13 @@ export default {
 
       this.formError = "";
       this.formSent = false;
+
+      const fullName = this.name.trim();
+      const nameParts = fullName.split(" ");
+      if (nameParts.length < 2) {
+        this.formError = "Por favor, insira seu nome completo.";
+        return;
+      }
 
       if (this.name.length <= 0) {
         this.formError = "O nome é obrigatório";
