@@ -48,7 +48,7 @@
 
   <div class="text-center pb-5">
     <a
-      href="https://www.canva.com/design/DAF8thb5AUQ/fR0FaGMm2n5BRF1ypat16g/edit?utm_content=DAF8thb5AUQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+      href="https://drive.google.com/file/d/1YE521QekO8US09qAkKK7dx8-79BJGka4/view?usp=sharing"
       target="_blank"
     >
       <button type="button" class="btn btn-primary">Mais detalhes</button></a
