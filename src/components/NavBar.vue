@@ -34,10 +34,11 @@
           <li class="nav-item">
             <a class="nav-link fw-bold" href="/#contato">Contato</a>
           </li>
-          <!--
+
           <li class="nav-item">
             <router-link class="nav-link fw-bold" to="/cursos">Cursos</router-link>
           </li>
+          <!--
           <li class="nav-item">
             <router-link class="nav-link fw-bold" to="/empregos">Central de Empregos</router-link>
           </li>
@@ -80,10 +81,11 @@
           <li class="nav-item">
             <a class="nav-link" href="/#contato">Contato</a>
           </li>
-          <!--
+
           <li class="nav-item">
             <router-link class="nav-link" to="/cursos">Cursos</router-link>
           </li>
+          <!--
           <li class="nav-item">
             <router-link class="nav-link" to="/empregos">Central de Empregos</router-link>
           </li>

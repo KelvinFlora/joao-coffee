@@ -109,7 +109,7 @@
               <img
                 src="../../public/images/coffeetaste5.jpg"
                 class="img-fluid rounded-center align-items-center card-img"
-                alt="Helcio Baroni tocando piano junto ao seu aluno"
+                alt="Joao realizando a prova de cafés especiais em um concurso"
               />
             </div>
             <div class="col-md-6 d-flex align-items-center">
