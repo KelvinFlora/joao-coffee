@@ -54,6 +54,28 @@
       <button type="button" class="btn btn-primary">Mais detalhes</button></a
     >
   </div>
+  <div class="container text-center">
+    <div><h2>VAGAS ENCERRADAS PARA O CURSO!</h2></div>
+    <div>
+      <br />
+      <h5>
+        Para receber em primeira mão as novidades e não ficar de fora do próximo, cadastre-se
+        abaixo:
+      </h5>
+      <br />
+      <div class="pb-5 form-link">
+        <a href="https://forms.gle/gXDxTDeAyA1VtMGs5" target="_blank">
+          <button type="button" class="btn btn-primary">
+            Avise-me quando estiver disponível!
+          </button></a
+        >
+      </div>
+    </div>
+  </div>
+
+  <!--
+
+    Formulário de inscrição
 
   <div class="container py-0 mt-4 contact-overlay wow">
     <h2 class="pb-4 text-center">Inscreva-se no curso:</h2>
@@ -397,7 +419,7 @@
     </div>
   </div>
 
-  <!--
+  
   <div class="calendar-container text-center ps-2 pe-2">
     <iframe
       class="calendar text-center"
@@ -413,6 +435,9 @@
 </template>
 
 <style>
+.form-link {
+  color: black !important;
+}
 .contact-overlay {
   color: black;
 }
