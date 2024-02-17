@@ -340,6 +340,7 @@
 .owl-carousel,
 .owl-stage {
   min-height: 70vh;
+  padding-bottom: 100px;
 }
 
 .owl-nav {
