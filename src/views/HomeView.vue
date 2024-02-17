@@ -333,13 +333,13 @@
 </template>
 <style>
 .owl-carousel {
-  background-color: #0a5640;
-  padding-top: 100px;
-  padding-bottom: 150px;
+  background-color: #3b271c;
+  padding-top: 10px;
+  padding-bottom: 50px;
 }
 .owl-carousel,
 .owl-stage {
-  min-height: 100vh;
+  min-height: 70vh;
 }
 
 .owl-nav {
@@ -350,7 +350,7 @@
   justify-content: space-around;
   min-height: 100px;
   font-size: 5rem !important;
-  margin-top: -60vh;
+  margin-top: -30vh;
 }
 
 .owl-carousel .owl-nav button.owl-next,
@@ -432,7 +432,7 @@
   width: 60%;
 }
 .title-section {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 100px;
 }
 
