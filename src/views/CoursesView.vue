@@ -57,18 +57,24 @@
   <div class="container text-center">
     <div>
       <h2>VAGAS ENCERRADAS PARA O CURSO</h2>
-      <h3>Novidades em breve!</h3>
+    </div>
+    <div>
+      <img
+        src="../../public/images/novidades.jpg"
+        class="rounded-center align-items-center news-img mt-3 mb-3"
+        alt="Xicara de café escrito News Coming Soon com grãos de café em volta"
+      />
     </div>
     <div>
       <br />
-      <h5>
+      <h3>
         Para receber em primeira mão as novidades e não ficar de fora do próximo, cadastre-se
         abaixo:
-      </h5>
+      </h3>
       <br />
       <div class="pb-5 form-link">
         <a href="https://forms.gle/79v7aitnGbhvzBbb7" target="_blank">
-          <button type="button" class="btn btn-primary">
+          <button type="button" class="btn btn-primary btn-aviseme">
             Avise-me quando estiver disponível!
           </button></a
         >
@@ -438,8 +444,16 @@
 </template>
 
 <style>
+.news-img {
+  width: 40%;
+  height: 40%;
+  border-radius: 2rem;
+}
 .form-link {
   color: black !important;
+}
+.btn-aviseme {
+  font-size: 25px !important;
 }
 .contact-overlay {
   color: black;
@@ -498,6 +512,11 @@
     border-radius: 2rem !important;
     align-items: center !important;
     padding-bottom: 100px;
+  }
+  .news-img {
+    width: 70%;
+    height: 70%;
+    border-radius: 2rem;
   }
 }
 </style>
