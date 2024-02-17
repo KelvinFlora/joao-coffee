@@ -55,7 +55,10 @@
     >
   </div>
   <div class="container text-center">
-    <div><h2>VAGAS ENCERRADAS PARA O CURSO!</h2></div>
+    <div>
+      <h2>VAGAS ENCERRADAS PARA O CURSO</h2>
+      <h3>Novidades em breve!</h3>
+    </div>
     <div>
       <br />
       <h5>
@@ -64,7 +67,7 @@
       </h5>
       <br />
       <div class="pb-5 form-link">
-        <a href="https://forms.gle/gXDxTDeAyA1VtMGs5" target="_blank">
+        <a href="https://forms.gle/79v7aitnGbhvzBbb7" target="_blank">
           <button type="button" class="btn btn-primary">
             Avise-me quando estiver disponível!
           </button></a
