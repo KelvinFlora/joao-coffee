@@ -61,7 +61,7 @@
     </div>
     <div>
       <img
-        src="images/news.jpg"
+        src="../../public/images/news.jpg"
         class="rounded-center align-items-center news-img mt-3 mb-3"
         alt="Xicara de café escrito News Coming Soon com grãos de café em volta"
       />
