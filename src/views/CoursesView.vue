@@ -7,13 +7,13 @@
       <div class="col-md-12">
         <a href="/cursocomercializacao" class="card-link">
           <div class="bg-white card rounded shadow mb-4 zoom custom-card">
-            <div class="d-flex align-items-start">
+            <div class="d-md-flex flex-md-row align-items-md-center">
               <img
                 src="../../public/images/comercializacao.jpg"
-                class="card-img-top fixed-image-size mr-3"
+                class="card-img-top fixed-image-size mb-3 mb-md-0 mr-md-3"
                 alt="Curso de Comercialização de Cafés"
               />
-              <div class="card-body text-dark d-flex flex-column justify-content-center">
+              <div class="card-body text-dark text-center text-md-left">
                 <h5 class="card-title mb-0">Curso de Introdução à Comercialização de Cafés</h5>
                 <p class="card-text">
                   Aprenda sobre os processos de comercialização de café, desde a produção até a
@@ -28,13 +28,13 @@
       <div class="col-md-12">
         <a href="/cursotorra" class="card-link">
           <div class="card rounded shadow mb-4 zoom bg-white custom-card">
-            <div class="d-flex align-items-start">
+            <div class="d-md-flex flex-md-row align-items-md-center">
               <img
                 src="../../public/images/torra.jpg"
-                class="card-img-top fixed-image-size mr-3"
+                class="card-img-top fixed-image-size mb-3 mb-md-0 mr-md-3"
                 alt="Curso de Introdução à Torra de Cafés"
               />
-              <div class="card-body text-dark d-flex flex-column justify-content-center">
+              <div class="card-body text-dark text-center text-md-left">
                 <h5 class="card-title mb-0">Curso de Introdução à Torra de Cafés</h5>
                 <p class="card-text">
                   Este curso oferece uma introdução ao processo de torra de café, cobrindo os
@@ -54,7 +54,6 @@
 .card-link {
   text-decoration: none; /* Remover sublinhado do link */
   color: inherit; /* Herdar a cor do texto do pai */
-  background-color: white !important;
 }
 
 .zoom {
@@ -68,18 +67,23 @@
 .fixed-image-size {
   width: 200px; /* Largura fixa */
   height: 200px; /* Altura fixa */
-  object-fit: cover; /* Redimensionar a imagem mantendo a proporção */
   margin-left: 50px;
+  object-fit: cover; /* Redimensionar a imagem mantendo a proporção */
 }
 
 .custom-card {
   border: 3px solid #b5b5b5 !important; /* Adiciona uma borda cinza fraca */
 }
 
-@media (min-width: 768px) {
+@media (max-width: 767.98px) {
   .fixed-image-size {
-    width: 200px; /* Largura fixa */
-    height: 200px; /* Altura fixa */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .card-body {
+    text-align: center;
   }
 }
 </style>
