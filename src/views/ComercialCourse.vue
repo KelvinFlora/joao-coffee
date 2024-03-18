@@ -40,6 +40,12 @@
                   - Estabelecimento de relações de confiança através da transparência nas
                   negociações
                 </h6>
+                <h5><b>Bônus:</b></h5>
+                <h6>- Tomar bons cafés!</h6>
+                <h6>- Participar do grupo exclusivo de alunos João Coffee</h6>
+                <h6>- PDF do material teórico do curso</h6>
+                <h6>- Certificado de conclusão de curso</h6>
+                <h6>- Material complementar extra</h6>
               </div>
             </div>
           </div>
