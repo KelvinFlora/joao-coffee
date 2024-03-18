@@ -515,7 +515,7 @@
     width: 70% !important;
     border-radius: 2rem !important;
     align-items: center !important;
-    padding-bottom: 100px;
+    margin-bottom: 100px;
   }
   .news-img {
     width: 70%;

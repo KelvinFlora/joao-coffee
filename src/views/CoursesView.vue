@@ -80,6 +80,7 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
+    padding: 0px !important;
   }
 
   .card-body {
