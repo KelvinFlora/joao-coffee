@@ -1,18 +1,17 @@
 <template>
   <div class="container">
-    <h1 class="curso-title text-center p-5 pt-2 wow">Cursos</h1>
     <div>
-      <div class="text-center title-course1">
-        <h2>Introdução à classificação e degustação de cafés especiais</h2>
+      <div class="text-center title-course1 pt-5">
+        <h2><b>Introdução à Torra de Cafés</b></h2>
       </div>
       <div class="container">
         <div class="card mb-3 rounded-start wow">
           <div class="row">
             <div class="col-md-6 d-flex justify-content-center align-items-center">
               <img
-                src="../../public/images/coffeetaste5.jpg"
+                src="../../public/images/torra.jpg"
                 class="img-fluid rounded-center align-items-center card-img"
-                alt="Helcio Baroni tocando piano junto ao seu aluno"
+                alt="João sentido o cheio do café durante a torra"
               />
             </div>
             <div class="col-md-6 d-flex align-items-center course-desc wow">
