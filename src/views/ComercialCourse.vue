@@ -1,9 +1,8 @@
 <template>
   <div class="container">
-    <h1 class="curso-title text-center p-5 pt-2 wow">Cursos</h1>
     <div>
-      <div class="text-center title-course1">
-        <h2>Introdução à Comercialização de Cafés</h2>
+      <div class="text-center title-course1 pt-5">
+        <h2><b>Introdução à Comercialização de Cafés</b></h2>
       </div>
       <div class="container">
         <div class="card mb-3 rounded-start wow">
