@@ -17,26 +17,31 @@
             <div class="col-md-6 d-flex align-items-center course-desc wow">
               <div class="">
                 <h4 class="card-title">Conteúdo encontrado nesse curso:</h4>
-                <h5>Classificação:</h5>
-                <h6>- Classificação de cafés especiais</h6>
-                <h6>- Categorização de tipos e defeitos</h6>
-                <h6>- Parâmetros físicos para definição de qualidade</h6>
-                <h6>- Padrões de cafés comerciais/exportações</h6>
-                <h5>Torra de Cafés:</h5>
+                <h5><b>Classificação:</b></h5>
+                <h6>- Diferença entre cafés convencionais e especiais</h6>
+                <h6>- Padrões de cafés para torras</h6>
+                <h6>- Aspectos físicos que interferem na torra</h6>
+                <h6>- Impacto das peneiras na torra</h6>
+                <h5><b>Torra de Cafés:</b></h5>
                 <h6>- Conceitos teóricos de uma torra de café</h6>
-                <h6>- Variáveis da torra de café</h6>
-                <h6>- Torra especial/Torra comercial</h6>
-                <h6>- Perfil sensorial de níveis de torra</h6>
-                <h5>Treino de percepção sensorial</h5>
-                <h6>- Identificação de aromas do "Le Nez du Café"</h6>
-                <h6>- Calibração sensorial de níveis e sabores</h6>
-                <h6>- Detecção de diferenças sensoriais</h6>
-                <h6>- Conceituação teórica do sabor</h6>
-                <h5>Degustação prática/teórica</h5>
-                <h6>- Utilização do formulário COE/SCA</h6>
-                <h6>- Definição de atributos avaliados no café</h6>
-                <h6>- Degustação de cafés especiais</h6>
-                <h6>- Triangulação sensorial</h6>
+                <h6>- Torras de cafés comerciais</h6>
+                <h6>- Prática da torra em vários maquinários</h6>
+                <h6>- Transformações químicas e físicas do processo de torras</h6>
+                <h6>- Montagem de uma curva de torra</h6>
+                <h6>- Perfil sensorial para cada tipo de café</h6>
+                <h6>- Automação de torras</h6>
+                <h6>- Escalas de coloração</h6>
+                <h5><b>Identificação sensorial da torra</b></h5>
+                <h6>- Degustação dos perfis sensoriais desenvolvidos no curso</h6>
+                <h6>- Impacto sensorial do tipo de torra no café</h6>
+                <h6>- Identificação de defeitos sensoriais da torra</h6>
+                <h6>- Avaliação da torra do café pelo aroma e visual</h6>
+                <h5><b>Bônus:</b></h5>
+                <h6>- Aprender como é feito o método prensa francesa</h6>
+                <h6>- Participar do grupo exclusivo de alunos João Coffee</h6>
+                <h6>- PDF do material teórico do curso</h6>
+                <h6>- Certificado de conclusão de curso</h6>
+                <h6>- Material complementar extra</h6>
               </div>
             </div>
           </div>
@@ -47,13 +52,14 @@
 
   <div class="text-center pb-5">
     <a
-      href="https://drive.google.com/file/d/15kjgnE9GSpXXRMxsI7bXTA8PuTBU0SwW/view?usp=sharing"
+      href="https://drive.google.com/file/d/1GiT7HUzy3tc1fJavw7XchO8obpEkyz6k/view?usp=drivesdk"
       target="_blank"
     >
       <button type="button" class="btn btn-primary">Mais detalhes</button></a
     >
   </div>
 
+  <!--
   <div class="container text-center">
     <div>
       <h2>VAGAS ENCERRADAS PARA O CURSO</h2>
@@ -82,7 +88,8 @@
     </div>
   </div>
 
-  <!--
+  -->
+
   <div class="container py-0 mt-4 contact-overlay wow">
     <h2 class="pb-4 text-center">Inscreva-se no curso:</h2>
     <div class="col-12 col-lg-6 mb-4">
@@ -425,8 +432,6 @@
     </div>
   </div>
 
-  -->
-
   <!--
   <div class="calendar-container text-center ps-2 pe-2">
     <iframe
@@ -722,7 +727,7 @@ export default {
       };
 
       let whatsText =
-        `*Olá! Gostaria de me inscrever no seu curso.*\n` +
+        `*Olá! Gostaria de me inscrever no seu curso de Introdução à Torra de Cafés.*\n` +
         `\n` +
         `🪪 *Nome:* ${formData.name}\n` +
         `✉️ *Email:* ${formData.email}\n` +
