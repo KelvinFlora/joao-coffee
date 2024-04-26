@@ -779,5 +779,4 @@ export default {
     }
   }
 };
-// eslint-disable-next-line vue/comment-directive
 </script>
