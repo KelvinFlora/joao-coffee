@@ -43,11 +43,6 @@ const router = createRouter({
       path: "/cursoespeciais",
       name: "Introdução à Classificação e Degustação de Cafés Especiais",
       component: () => import("../views/IntroCourse.vue")
-    },
-    {
-      path: "/cursodrinks",
-      name: "Drinks Caseiros - Especial Dia das Mães",
-      component: () => import("../views/DrinksCourse.vue")
     }
   ],
   scrollBehavior(to, from, savedPosition) {
