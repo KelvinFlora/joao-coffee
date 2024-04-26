@@ -3,7 +3,60 @@
     <div class="text-center pb-5 pt-4">
       <h1>Cursos</h1>
     </div>
+
+    <!-- Introdução aos cafés especiais -->
     <div class="row">
+      <div class="col-md-12">
+        <a href="/cursoespeciais" class="card-link">
+          <div class="bg-white card rounded shadow mb-4 zoom custom-card">
+            <div class="d-md-flex flex-md-row align-items-md-center">
+              <img
+                src="../../public/images/coffeetaste6.jpg"
+                class="card-img-top fixed-image-size mb-3 mb-md-0 mr-md-3"
+                alt="Curso de Comercialização de Cafés"
+              />
+              <div class="card-body text-dark text-center text-md-left">
+                <h5 class="card-title mb-0">
+                  Introdução à Classificação e Degustação de Cafés Especiais
+                </h5>
+                <p class="card-text">
+                  Este curso abrange a classificação de cafés especiais, torra, treino de percepção
+                  sensorial e degustação prática, fornecendo uma compreensão abrangente da qualidade
+                  e avaliação de cafés.
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Drinks Caseiros -->
+      <div class="row">
+        <div class="col-md-12">
+          <a href="/cursodrinks" class="card-link">
+            <div class="bg-white card rounded shadow mb-4 zoom custom-card">
+              <div class="d-md-flex flex-md-row align-items-md-center">
+                <img
+                  src="../../public/images/baristacurso.jpg"
+                  class="card-img-top fixed-image-size mb-3 mb-md-0 mr-md-3"
+                  alt="Curso de Comercialização de Cafés"
+                />
+                <div class="card-body text-dark text-center text-md-left">
+                  <h5 class="card-title mb-0">
+                    Curso de Barista - Drinks Caseiros (Especial de Dia das Mães)
+                  </h5>
+                  <p class="card-text">
+                    Vamos aprender como fazer um bom café em casa, criar drinks caseiros e o que
+                    comprar na hora de presentear sua mãe que ama café.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Curso de Comercialização de Cafés -->
+        <!--
       <div class="col-md-12">
         <a href="/cursocomercializacao" class="card-link">
           <div class="bg-white card rounded shadow mb-4 zoom custom-card">
@@ -25,6 +78,10 @@
           </div>
         </a>
       </div>
+      -->
+
+        <!-- Curso de Introdução à Torra de Cafés -->
+        <!--
       <div class="col-md-12">
         <a href="/cursotorra" class="card-link">
           <div class="card rounded shadow mb-4 zoom bg-white custom-card">
@@ -46,6 +103,7 @@
           </div>
         </a>
       </div>
+      --></div>
     </div>
   </div>
 </template>

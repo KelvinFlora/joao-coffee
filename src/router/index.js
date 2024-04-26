@@ -38,6 +38,16 @@ const router = createRouter({
       path: "/cursotorra",
       name: "Introdução à Torra de Cafés",
       component: () => import("../views/RoastCourse.vue")
+    },
+    {
+      path: "/cursoespeciais",
+      name: "Introdução à Classificação e Degustação de Cafés Especiais",
+      component: () => import("../views/ClassCourse.vue")
+    },
+    {
+      path: "/cursodrinks",
+      name: "Drinks Caseiros - Especial Dia das Mães",
+      component: () => import("../views/DrinksCourse.vue")
     }
   ],
   scrollBehavior(to, from, savedPosition) {
