@@ -7,7 +7,7 @@
     <!-- Introdução aos cafés especiais -->
     <div class="row">
       <div class="col-md-12">
-        <a href="/curso1" class="card-link">
+        <a href="/curso2" class="card-link">
           <div class="bg-white card rounded shadow mb-4 zoom custom-card">
             <div class="d-md-flex flex-md-row align-items-md-center">
               <img
@@ -33,7 +33,7 @@
       <!-- Drinks Caseiros -->
       <div class="row">
         <div class="col-md-12">
-          <a href="/curso2" class="card-link">
+          <a href="/curso1" class="card-link">
             <div class="bg-white card rounded shadow mb-4 zoom custom-card">
               <div class="d-md-flex flex-md-row align-items-md-center">
                 <img
