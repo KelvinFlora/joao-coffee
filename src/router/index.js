@@ -28,21 +28,6 @@ const router = createRouter({
       path: "/contato",
       name: "contato",
       component: () => import("../views/ContactView.vue")
-    },
-    {
-      path: "/cursocomercializacao",
-      name: "Comercialização de Cafés",
-      component: () => import("../views/ComercialCourse.vue")
-    },
-    {
-      path: "/cursotorra",
-      name: "Introdução à Torra de Cafés",
-      component: () => import("../views/RoastCourse.vue")
-    },
-    {
-      path: "/cursoespeciais",
-      name: "Introdução à Classificação e Degustação de Cafés Especiais",
-      component: () => import("../views/IntroCourse.vue")
     }
   ],
   scrollBehavior(to, from, savedPosition) {
