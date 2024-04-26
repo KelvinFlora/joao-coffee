@@ -28,6 +28,16 @@ const router = createRouter({
       path: "/contato",
       name: "contato",
       component: () => import("../views/ContactView.vue")
+    },
+    {
+      path: "/curso1",
+      name: "Curso de Barista",
+      component: () => import("../views/DrinksCourse.vue")
+    },
+    {
+      path: "/curso2",
+      name: "Curso de Cafes Especiais",
+      component: () => import("../views/IntroCourse.vue")
     }
   ],
   scrollBehavior(to, from, savedPosition) {
