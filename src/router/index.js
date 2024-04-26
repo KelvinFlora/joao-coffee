@@ -42,7 +42,7 @@ const router = createRouter({
     {
       path: "/cursoespeciais",
       name: "Introdução à Classificação e Degustação de Cafés Especiais",
-      component: () => import("../views/ClassCourse.vue")
+      component: () => import("../views/IntroCourse.vue")
     },
     {
       path: "/cursodrinks",
