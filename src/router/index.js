@@ -37,7 +37,7 @@ const router = createRouter({
     {
       path: "/curso2",
       name: "Curso de Cafes Especiais",
-      component: () => import("../views/IntroCourse.vue")
+      component: () => import("../views/CoffeeView.vue")
     }
   ],
   scrollBehavior(to, from, savedPosition) {
