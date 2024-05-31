@@ -59,7 +59,7 @@
       <button type="button" class="btn btn-primary">Mais detalhes</button></a
     >
   </div>
-
+  <!--
   <div class="container text-center">
     <div>
       <h2>VAGAS ENCERRADAS PARA O CURSO</h2>
@@ -87,8 +87,8 @@
       </div>
     </div>
   </div>
+-->
 
-  <!--
   <div class="container py-0 mt-4 contact-overlay wow">
     <h2 class="pb-4 text-center">Inscreva-se no curso:</h2>
     <div class="col-12 col-lg-6 mb-4">
@@ -400,14 +400,14 @@
               Entendemos que situações imprevistas podem surgir, e para garantir transparência e
               eficiência em nossos serviços, estabelecemos a seguinte política de cancelamento:
             </p>
-            <h2>Cancelamento até 29/02:</h2>
+            <h2>Cancelamento até 05/05:</h2>
             <p>
-              Até o dia 29 de fevereiro de 2024, caso opte por cancelar sua participação, você terá
-              direito a um reembolso integral do valor pago. Nesse período, o cancelamento é 100%
-              gratuito. Para solicitar o reembolso, por favor, entre em contato conosco através dos
-              canais de atendimento disponibilizados abaixo.
+              Até o dia 05/05 de fevereiro de 2024, caso opte por cancelar sua participação, você
+              terá direito a um reembolso integral do valor pago. Nesse período, o cancelamento é
+              100% gratuito. Para solicitar o reembolso, por favor, entre em contato conosco através
+              dos canais de atendimento disponibilizados abaixo.
             </p>
-            <h2>Cancelamento após 29/02:</h2>
+            <h2>Cancelamento após 05/05:</h2>
             <p>
               Após a data mencionada, o reembolso será concedido com algumas considerações. Será
               reembolsado 90% do valor pago, devido a taxas administrativas e questões logísticas
@@ -430,7 +430,7 @@
       </div>
     </div>
   </div>
--->
+
   <!--
       <div class="calendar-container text-center ps-2 pe-2">
         <iframe
