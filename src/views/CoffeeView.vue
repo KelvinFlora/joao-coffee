@@ -59,7 +59,7 @@
       <button type="button" class="btn btn-primary">Mais detalhes</button></a
     >
   </div>
-  <!--
+
   <div class="container text-center">
     <div>
       <h2>VAGAS ENCERRADAS PARA O CURSO</h2>
@@ -87,8 +87,8 @@
       </div>
     </div>
   </div>
--->
 
+  <!--
   <div class="container py-0 mt-4 contact-overlay wow">
     <h2 class="pb-4 text-center">Inscreva-se no curso:</h2>
     <div class="col-12 col-lg-6 mb-4">
@@ -425,12 +425,13 @@
               Para dúvidas ou esclarecimentos adicionais, entre em contato pelo Whatsapp: (35)
               99889-4259.
             </p>
+            <p><b>Data de realização do curso: 06/05/2024 a 10/05/2024</b></p>
           </div>
         </div>
       </div>
     </div>
   </div>
-
+-->
   <!--
       <div class="calendar-container text-center ps-2 pe-2">
         <iframe
