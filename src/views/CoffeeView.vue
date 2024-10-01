@@ -2,7 +2,7 @@
   <div class="container">
     <div>
       <div class="text-center title-course1 pt-5">
-        <h2><b>Introdução à Classificação e Degustação de Cafés Especiais</b></h2>
+        <h2><b>E-book de Introdução à Classificação e Degustação de Cafés Especiais</b></h2>
       </div>
       <div class="container">
         <div class="card mb-3 rounded-start wow">
@@ -59,7 +59,7 @@
       <button type="button" class="btn btn-primary">Mais detalhes</button></a
     >
   </div>
-
+<!--
   <div class="container text-center">
     <div>
       <h2>VAGAS ENCERRADAS PARA O CURSO</h2>
@@ -87,8 +87,8 @@
       </div>
     </div>
   </div>
-
-  <!--
+-->
+  
   <div class="container py-0 mt-4 contact-overlay wow">
     <h2 class="pb-4 text-center">Inscreva-se no curso:</h2>
     <div class="col-12 col-lg-6 mb-4">
@@ -242,7 +242,7 @@
             <label class="form-label">Parcelas</label>
             <select class="form-select" v-model="installments">
               <option v-for="n in 10" :value="n" :key="n">
-                {{ n }}x de R$ {{ (599 / n).toFixed(2) }}
+                {{ n }}x de R$ {{ (20 / n).toFixed(2) }}
               </option>
             </select>
           </div>
@@ -444,7 +444,7 @@
           scrolling="no"
         ></iframe>
       </div>
-      -->
+
 </template>
 
 <style>
@@ -542,7 +542,7 @@ export default {
       paymentMethod: "pix",
       installments: 1,
       showInstallments: false,
-      total: 599,
+      total: 20,
       formError: "",
       sendingForm: false,
       formSent: false
@@ -705,7 +705,7 @@ export default {
 
       this.sendingForm = true;
 
-      const total = 599; // Valor total do curso
+      const total = 20; // Valor total do curso
       const installmentValue = total / this.installments;
       const totalWithDiscount = this.paymentMethod === "pix" ? total * 0.9 : total;
 
