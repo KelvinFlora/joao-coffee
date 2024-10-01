@@ -59,7 +59,7 @@
       <button type="button" class="btn btn-primary">Mais detalhes</button></a
     >
   </div>
-<!--
+  <!--
   <div class="container text-center">
     <div>
       <h2>VAGAS ENCERRADAS PARA O CURSO</h2>
@@ -88,7 +88,7 @@
     </div>
   </div>
 -->
-  
+
   <div class="container py-0 mt-4 contact-overlay wow">
     <h2 class="pb-4 text-center">Inscreva-se no curso:</h2>
     <div class="col-12 col-lg-6 mb-4">
@@ -431,7 +431,7 @@
       </div>
     </div>
   </div>
--->
+
   <!--
       <div class="calendar-container text-center ps-2 pe-2">
         <iframe
@@ -444,8 +444,7 @@
           scrolling="no"
         ></iframe>
       </div>
-
-</template>
+--></template>
 
 <style>
 .news-img {
