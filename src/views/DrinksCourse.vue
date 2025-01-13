@@ -32,14 +32,14 @@
     </div>
   </div>
 
-  <div class="text-center pb-5">
+  <!-- <div class="text-center pb-5">
     <a
       href="https://drive.google.com/file/d/1ImZ4U689Xdo1AB-xIYvpXwEc9ONfjbzt/view?usp=sharing"
       target="_blank"
     >
       <button type="button" class="btn btn-primary">Mais detalhes</button></a
     >
-  </div>
+  </div> -->
 
   <div class="container text-center">
     <div>

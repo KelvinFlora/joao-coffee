@@ -50,14 +50,14 @@
     </div>
   </div>
 
-  <div class="text-center pb-5">
+  <!-- <div class="text-center pb-5">
     <a
       href="https://drive.google.com/file/d/1GiT7HUzy3tc1fJavw7XchO8obpEkyz6k/view?usp=drivesdk"
       target="_blank"
     >
       <button type="button" class="btn btn-primary">Mais detalhes</button></a
     >
-  </div>
+  </div> -->
 
   <div class="container text-center">
     <div>
