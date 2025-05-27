@@ -30,6 +30,11 @@ const router = createRouter({
       component: () => import("../views/ContactView.vue")
     },
     {
+      path: "/educacao",
+      name: "CoffeeFamilyPage",
+      component: () => import("../views/CafeFamiliaView.vue")
+    },
+    {
       path: "/curso1",
       name: "Curso de Barista",
       component: () => import("../views/DrinksCourse.vue")
@@ -38,6 +43,26 @@ const router = createRouter({
       path: "/curso2",
       name: "Curso de Cafes Especiais",
       component: () => import("../views/CoffeeView.vue")
+    },
+    {
+      path: "/ciclo",
+      name: "Ciclo de Produção do Café",
+      component: () => import("../views/CicloView.vue")
+    },
+    {
+      path: "/sustentavel",
+      name: "Sustentabilidade",
+      component: () => import("../views/SustentavelView.vue")
+    },
+    {
+      path: "/impacto",
+      name: "Impacto Social",
+      component: () => import("../views/ImpactoView.vue")
+    },
+    {
+      path: "/historias",
+      name: "Histórias",
+      component: () => import("../views/HistoriasView.vue")
     }
   ],
   scrollBehavior(to, from, savedPosition) {

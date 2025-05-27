@@ -38,6 +38,9 @@
           <li class="nav-item">
             <router-link class="nav-link fw-bold" to="/cursos">Cursos</router-link>
           </li>
+          <li class="nav-item">
+            <router-link class="nav-link fw-bold" to="/educacao">Educação</router-link>
+          </li>
           <!--
           <li class="nav-item">
             <router-link class="nav-link fw-bold" to="/empregos">Central de Empregos</router-link>
@@ -84,6 +87,10 @@
 
           <li class="nav-item">
             <router-link class="nav-link" to="/cursos">Cursos</router-link>
+          </li>
+
+          <li class="nav-item">
+            <router-link class="nav-link" to="/educacao">Educação</router-link>
           </li>
           <!--
           <li class="nav-item">
